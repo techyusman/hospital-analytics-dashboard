@@ -1,45 +1,43 @@
-# hospital-analytics-dashboard
-A professional Streamlit-based hospital analytics platform for visualizing patient demographics, billing data, and medical outcomes using Python and Plotly.
+# Professional Hospital Analytics Dashboard
 
-# Hospital Analytics Enterprise Dashboard
+This enterprise-grade analytics platform is designed for healthcare administrators and clinical researchers to visualize complex patient data, monitor financial trends, and evaluate medical outcomes.
 
-A professional-grade analytics platform designed to provide hospital administrators and healthcare providers with actionable insights into patient data, medical conditions, and financial performance.
-
-## 📋 Table of Contents
-- [Project Overview](#project-overview)
-- [Key Features](#key-features)
-- [Data Analysis Logic](#data-analysis-logic)
-- [Dataset Description](#dataset-description)
-- [Installation & Setup](#installation--setup)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-
-## 🔍 Project Overview
-The **Hospital Analytics Enterprise Dashboard** is a data science project that transforms raw healthcare records into interactive visualizations. It enables users to analyze patient demographics, track common medical conditions (like Cancer and Obesity), and monitor billing amounts across different insurance providers.
+## 🚀 Project Overview
+The dashboard processes a comprehensive healthcare dataset to provide interactive visualizations. It enables stakeholders to track hospital performance, patient demographics, and the effectiveness of medical treatments across various conditions.
 
 ## ✨ Key Features
-- **Dynamic Demographics:** Interactive analysis of patient Age and Gender distributions.
-- **Medical Condition Insights:** Visual tracking of common diagnoses and treatment outcomes.
-- **Financial Analytics:** Comprehensive review of billing amounts categorized by insurance providers (e.g., Medicare, Aetna, Cigna).
-- **Operational Monitoring:** Real-time data on admission types (Urgent, Emergency, Elective) and hospital room occupancy.
+- **Patient Demographics:** Granular analysis of Age, Gender, and Blood Type distributions.
+- **Clinical Performance:** Visualization of test results (Normal, Abnormal, Inconclusive) and medical conditions like Cancer, Obesity, and Diabetes.
+- **Financial Auditing:** Tracking of billing amounts and insurance provider performance (Medicare, Aetna, Cigna, etc.).
+- **Operational Insights:** Monitoring of admission types (Urgent, Emergency, Elective) and room occupancy rates.
+- **Medical Treatment Analysis:** Analysis of medication usage (e.g., Paracetamol, Ibuprofen, Aspirin) relative to discharge timelines.
 
-## 📊 Data Analysis Logic
-The project script (`health_dashboard.py`) follows a professional hospital management workflow:
-1. **Data Ingestion:** Loads patient records from `healthcare_dataset.csv`.
-2. **Patient Tracking:** Monitors dates of admission and discharge to calculate hospital throughput.
-3. **Medical Outcome Analysis:** Evaluates test results (Normal, Abnormal, Inconclusive) against specific medical conditions.
-4. **Billing Audits:** Summarizes financial data to identify billing trends across various healthcare facilities.
+## 🛠 Tech Stack
+- **Dashboarding:** [Streamlit](https://streamlit.io/)
+- **Data Processing:** [Pandas](https://pandas.pydata.org/)
+- **Visualizations:** [Plotly](https://plotly.com/) / Matplotlib
+- **Programming:** Python 3.x
 
-## 📂 Dataset Description
-The system utilizes a structured CSV dataset containing:
-- **Patient Identifiers:** Name, Age, Gender, and Blood Type.
-- **Clinical Data:** Medical Condition, Doctor, Medication, and Test Results.
-- **Administrative Data:** Hospital name, Admission Type, and Room Number.
-- **Financial Data:** Insurance Provider and Billing Amount.
+## 📂 Dataset Architecture
+The system utilizes a structured `healthcare_dataset.csv` containing the following dimensions:
+| Column | Description |
+| :--- | :--- |
+| `Name`, `Age`, `Gender` | Patient Identifiers |
+| `Medical Condition` | Diagnoses (e.g., Asthma, Hypertension) |
+| `Doctor`, `Hospital` | Provider Information |
+| `Insurance Provider` | Financial Payers |
+| `Billing Amount` | Transactional data |
+| `Admission Type` | Priority (Urgent, Emergency, Elective) |
+| `Test Results` | Clinical outcomes |
 
-## 🚀 Installation & Setup
+## ⚙️ Installation & Usage
 
-1. **Clone the repo:**
+1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/techyusman/hospital-analytics-dashboard.git](https://github.com/your-username/hospital-analytics-dashboard.git)
-   cd hospital-analytics-dashboard
+   git clone: https://github.com/techyusman/healthcare-analytics-dashboard.git
+
+   Install Dependencies: pip install -r requirements.txt
+   Launch the Dashboard: streamlit run health_dashboard.py
+
+
+   Developer Name: Muhammad Usman Software Engineer
