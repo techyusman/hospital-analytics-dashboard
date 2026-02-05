@@ -38,3 +38,8 @@ The system utilizes a structured CSV dataset containing:
 - **Financial Data:** Insurance Provider and Billing Amount.
 
 ## 🚀 Installation & Setup
+
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/techyusman/hospital-analytics-dashboard.git](https://github.com/your-username/hospital-analytics-dashboard.git)
+   cd hospital-analytics-dashboard
